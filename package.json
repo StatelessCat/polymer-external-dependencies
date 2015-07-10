@@ -1,0 +1,28 @@
+{
+  "name": "polymer-external-dependencies",
+  "version": "0.0.1",
+  "description": "polymer-external-dependencies",
+  "main": ".",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StatelessCat/polymer-external-dependencies.git"
+  },
+  "keywords": [
+    "polymer",
+    "webcomponents",
+    "javascript"
+  ],
+  "author": "\"Raphael Cazenave-Leveque <raphael.cazenave@gmail.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/StatelessCat/polymer-external-dependencies/issues"
+  },
+  "homepage": "https://github.com/StatelessCat/polymer-external-dependencies#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.10.1"
+  }
+}
