@@ -6,10 +6,6 @@
       window.Polymer = window.Polymer || {};
       window.Polymer.dom = 'shadow';
     </script>
-
-    <!-- global import of external dependencies -->
-    <script type="text/javascript" src="../bower_components/ramda/dist/ramda.js"></script>
-
     <link rel="import" href="../src/an-element.html"/>
   </head>
   <body>
@@ -17,6 +13,8 @@
     <script type="text/javascript">
       (function() {
         console.log("hello");
+        console.log(R.add(2, 3));       //=>  5
+        console.log(R.add(7)(10));      //=> 17
       })();
     </script>
   </body>
