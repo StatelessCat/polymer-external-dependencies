@@ -8,6 +8,11 @@
     Polymer({
       is: "an-element",
       properties: {},
+      ready: function() {
+        // we use R because we know that Ramda lib is globally present
+        console.log(R.add(2, 3));       //=>  5
+        console.log(R.add(7)(10));      //=> 17
+      }
     });
   </script>
 </dom-module>
